@@ -12,16 +12,8 @@ body {
     background-color: rgba(0, 0, 0, 0.939);
 }
 
-.navbarTitle {
-    margin-left: -4px;
-    font-size: 6vw;
-    text-shadow: rgba(26, 26, 26, 0.267) -1px 0px;
-    font-weight: 900;
-    color: rgb(7, 0, 34);
-    text-align: center;
-}
 .operators {
-    font-size: 45px;
+    font-size: 3vw;
     font-weight: 100;
     color: rgb(184, 184, 184);
     text-align: center;
@@ -29,7 +21,7 @@ body {
 .calcOutline {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 16vh;
     /* border: 2px solid darkblue; */
     width: 600px;
     height: 625px;
@@ -39,10 +31,16 @@ body {
     /* border: 2px solid rgb(192, 174, 11); */
     flex: 1; 
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 50px;
     background-color: rgb(95, 122, 113);
     
+}
+.calculation {
+    font-size: 30px;
+}
+.result {
+    font-size: 50px;
 }
 .buttonSpace {
     display: flex;
